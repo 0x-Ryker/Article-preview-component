@@ -42,56 +42,57 @@
     </style>
   </head>
   <body>
-    <main class="main-container">
-      <section class="flex-items">
-        <img class="drawer" src="images/drawers.jpg" alt="drawer" />
+    <div class="container">
+      <main class="flex-wrapper">
+        <div>
+          <img src="./images/drawers.jpg" alt="drawers" class="drawers" />
+        </div>
+        <section class="text-section">
+          <h1>
+            Shift the overall look and feel by <br />
+            adding these wonderful touches to <br />
+            furniture in your home
+          </h1>
 
-        <article class="article-section">
-          <aside>
-            <h1 class="txt-bold">
-              Shift the overall look and feel by <br />
-              adding these wonderful touches to <br />
-              furniture in your home
-            </h1>
+          <p>
+            Ever been in a room and felt like something was missing? <br />
+            Perhaps it felt slightly bare and uninviting. I’ve got some <br />
+            simple tips to help you make any room feel complete.
+          </p>
 
-            <p class="color-gray">
-              Ever been in a room and felt like something was missing? <br />
-              Perhaps it felt slightly bare and uninviting. I’ve got some <br />
-              simple tips to help you make any room feel complete.
-            </p>
-          </aside>
+          <p></p>
 
-          <div class="bottom-section">
-            <div class="profile-info">
+          <ul class="user-data">
+            <li class="user-avatar">
               <img
-                class="profile-img"
-                src="images/avatar-michelle.jpg"
-                alt="Michelle's photo"
+                src="./images/avatar-michelle.jpg"
+                alt="michelle-picture"
+                class="avatar"
               />
-
-              <div class="name-date">
-                <p class="name txt-bold">Michelle Appleton</p>
-                <p class="date-em color-gray">28 Jun 2020</p>
+              <div>
+                <strong>Michelle Appleton</strong>
+                <span> Jun 2020</span>
               </div>
-            </div>
-
-            <form action="#">
-              <!-- <input
-                class="share-icon"
-                type="image"
-                src="images/icon-share.svg"
-                alt=""
-              /> -->
-              <i class="fa-solid fa-share"></i>
-              <!-- <span>Share</span>
-              <span><img src="images/icon-facebook.svg" alt="" /></span>
-              <span><img src="images/icon-twitter.svg" alt="" /></span>
-              <span><img src="images/icon-pinterest.svg" alt="" /></span> -->
-            </form>
-          </div>
-        </article>
-      </section>
-    </main>
+            </li>
+            <li class="button-wrapper">
+              <button>
+                <img src="./images/icon-share.svg" alt="" />
+              </button>
+              <div class="share-icon">
+                <ul>
+                  <li class="share-bg tooltip-items">
+                    SHARE
+                    <img src="./images/icon-pinterest.svg" alt="" />
+                    <img src="./images/icon-facebook.svg" alt="" />
+                    <img src="./images/icon-twitter.svg" alt="" />
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
 
     <div class="attribution">
       Challenge by
@@ -100,5 +101,6 @@
       >. Coded by
       <a href="https://www.frontendmentor.io/profile/0x-Ryker">0x_Ryker</a>.
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
